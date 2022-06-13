@@ -1,0 +1,26 @@
+{
+  "name": "store",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.tsx",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc -w --outDir dist",
+    "build": "tsc --outDir dist",
+    "lint": "eslint *.ts*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "workspace:*",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.3.0",
+    "zustand": "4.0.0-rc.1"
+  }
+}
